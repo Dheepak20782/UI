@@ -168,11 +168,15 @@
 		</plugins>
 	</build>
 	
-	<repositories>
-	  <repository>
-	    <id>sonatype-nexus-snapshots</id>
-	    <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
-	  </repository>
-	</repositories>
+<repositories>
+	<repository>
+		<id>central</id>
+		<url>http://central.maven.org/maven2/</url>
+	</repository>
+	<repository>
+		<id>sonatype-nexus-snapshots</id>
+		<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+	</repository>
+</repositories>
 
 </project>
