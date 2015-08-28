@@ -5,4 +5,4 @@ logging:
   level:
     org.springframework.security: DEBUG
 server:
-  port: 8076
+  port: 8761
